@@ -19,20 +19,20 @@
 
 <!-- PROJECT LOGO -->
 <!-- <br /> -->
-<div align="center">
-  <!-- <a href="https://github.com/othneildrew/Best-README-Template">
+<!-- <div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a> -->
+  </a>
 
   <h3 align="center">AI Radar</h3>
 
   <p align="center">
     Explore and compare popular AI tools through interactive radar charts
   </p>
-</div>
+</div> -->
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<!-- <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -50,18 +50,18 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <!-- <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li> -->
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-</details>
+</details> -->
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-The project is a static site that showcases various popular AI tools.
+The project AI-Radar is a static site that showcases various popular AI tools.
 
 Highlights:
 
@@ -71,7 +71,7 @@ Highlights:
 
 The project focuses on the application of AI-assisted tools and learning for front-end development. Its features will be continuously supplemented, and the website data will be updated based on individual experiences.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 ### Built With
 
@@ -79,7 +79,7 @@ The project focuses on the application of AI-assisted tools and learning for fro
 - [![TailwindCSS][TailwindCSS]][TailwindCSS-url]
 - [![ShadcnUI][ShadcnUI]][ShadcnUI-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
 
@@ -87,11 +87,11 @@ The project focuses on the application of AI-assisted tools and learning for fro
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+#### Prerequisites
 
 - Node.js 18.18 or later
 
-### Installation
+#### Installation
 
 1. Clone the repo
    ```sh
@@ -102,7 +102,7 @@ To get a local copy up and running follow these simple example steps.
    npm install
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- USAGE EXAMPLES -->
 
@@ -110,7 +110,7 @@ To get a local copy up and running follow these simple example steps.
 
 Coming soon.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- ROADMAP -->
 
@@ -121,15 +121,15 @@ Coming soon.
 - [ ] Add comparison feature
 - [ ] More features
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- CONTACT -->
 
 ## Contact
 
-Jiaming Tang - tjm.mosquito@gmail.com
+Email: tjm.mosquito@gmail.com
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- ACKNOWLEDGMENTS -->
 
@@ -139,7 +139,7 @@ Jiaming Tang - tjm.mosquito@gmail.com
 - [Img Shields](https://shields.io)
 - [GitHub Pages](https://pages.github.com)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
