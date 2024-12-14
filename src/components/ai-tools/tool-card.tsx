@@ -6,8 +6,8 @@ import { AITool } from '@/data/ai-tools';
 export default function AIToolCard({ tool }: { tool: AITool }) {
   return (
     <Card className="flex flex-col border-gray-200 bg-white transition-colors duration-200 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-      <CardHeader className="pb-2">
-        <div className="flex items-start justify-between">
+      <CardHeader className="pb-4">
+        <div className="flex items-center justify-between">
           <CardTitle className="text-xl font-bold">{tool.name}</CardTitle>
           {/* <CardDescription className="text-gray-500 dark:text-gray-400">
           {tool.modelType}
@@ -33,7 +33,7 @@ export default function AIToolCard({ tool }: { tool: AITool }) {
             </span>
             <span className="text-right">{tool.keyFeature}</span>
           </div>
-          <div className="flex items-center justify-between pt-2">
+          <div className="flex items-center justify-between">
             <span className="text-gray-500 dark:text-gray-400">API:</span>
             <Badge
               variant={
@@ -47,7 +47,7 @@ export default function AIToolCard({ tool }: { tool: AITool }) {
             </Badge>
           </div>
         </div>
-        <div className="flex-grow border-t border-gray-200 pt-4 dark:border-gray-700">
+        <div className="flex-grow border-t border-gray-200 pt-10 dark:border-gray-700">
           {/* <h4 className="text-sm font-medium mb-2">Capability Dimensions</h4> */}
           <div className="mx-auto h-[200px] w-full max-w-[300px]">
             <RadarChart data={tool.dimensions} name={tool.name} />
