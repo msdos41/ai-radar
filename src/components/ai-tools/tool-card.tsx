@@ -1,22 +1,21 @@
 import RadarChart from '@/components/ai-tools/radar-chart';
 import { Badge } from '@/components/ui/badge';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { AITool } from '@/data/ai-tools';
 
 export default function AIToolCard({ tool }: { tool: AITool }) {
   return (
     <Card className="flex flex-col border-gray-200 bg-white transition-colors duration-200 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
       <CardHeader className="pb-2">
-        <CardTitle className="text-xl font-bold">{tool.name}</CardTitle>
-        <CardDescription className="text-gray-500 dark:text-gray-400">
+        <div className="flex items-start justify-between">
+          <CardTitle className="text-xl font-bold">{tool.name}</CardTitle>
+          {/* <CardDescription className="text-gray-500 dark:text-gray-400">
           {tool.modelType}
-        </CardDescription>
+          </CardDescription> */}
+          <Badge variant="secondary" className="text-xs">
+            {tool.modelType}
+          </Badge>
+        </div>
       </CardHeader>
       <CardContent>
         <div className="mb-6 space-y-2 text-sm">
