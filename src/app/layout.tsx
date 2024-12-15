@@ -35,6 +35,7 @@ export const metadata: Metadata = {
 // }
 
 import { ThemeProvider } from '@/components/theme-provider';
+import { LanguageProvider } from '@/hooks/use-language';
 
 export default function RootLayout({
   children,
@@ -52,7 +53,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            {children}
+            <LanguageProvider>{children}</LanguageProvider>
           </ThemeProvider>
         </body>
       </html>

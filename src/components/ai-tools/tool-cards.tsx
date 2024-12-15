@@ -6,6 +6,7 @@ import AIToolCard from '@/components/ai-tools/tool-card';
 import { ThemeToggle } from '@/components/ui/theme-toggle';
 import { useEffect, useState } from 'react';
 import { GitHubButton } from '../ui/github-button';
+import { LanguageToggle } from '../ui/language-toggle';
 import { FilterTags } from './filter-tags';
 
 export default function AIToolsComparison() {
@@ -28,6 +29,7 @@ export default function AIToolsComparison() {
         <h1 className="text-4xl font-extrabold">AI Radar</h1>
         {/* <h1 className="text-4xl font-extrabold">{SITE_TITLE}</h1> */}
         <div className="flex items-center space-x-2">
+          <LanguageToggle />
           <GitHubButton />
           <ThemeToggle />
         </div>

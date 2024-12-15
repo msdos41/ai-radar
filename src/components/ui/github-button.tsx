@@ -6,6 +6,7 @@ import { Github } from 'lucide-react';
 export function GitHubButton() {
   return (
     <Button
+      className="h-10 w-10 rounded-full"
       variant="outline"
       size="icon"
       onClick={() =>
