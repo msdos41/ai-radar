@@ -36,7 +36,7 @@ export default function AIToolCard({ tool }: { tool: AITool }) {
     }
   };
   return (
-    <Card className="flex flex-col border-gray-200 bg-white transition-colors duration-200 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+    <Card className="flex flex-col border-gray-200 bg-white transition-colors duration-200 dark:border-gray-700 dark:bg-gray-800">
       <CardHeader className="pb-4">
         <div className="flex items-center justify-between">
           <CardTitle className="text-xl font-bold">{tool.name}</CardTitle>
