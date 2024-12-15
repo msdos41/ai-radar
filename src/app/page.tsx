@@ -104,7 +104,7 @@ import AIToolsComparison from '@/components/ai-tools/tool-cards';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 px-4 py-12 text-gray-900 dark:from-gray-900 dark:to-gray-800 dark:text-white sm:px-6 lg:px-8">
+    <main className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 px-4 py-8 text-gray-900 dark:from-gray-900 dark:to-gray-800 dark:text-white sm:px-6 lg:px-8">
       <AIToolsComparison />
     </main>
   );
