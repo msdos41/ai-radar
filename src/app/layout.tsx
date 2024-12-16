@@ -35,6 +35,7 @@ export const metadata: Metadata = {
 // }
 
 import { ThemeProvider } from '@/components/theme-provider';
+import { ScrollToTopButton } from '@/components/ui/scroll-to-top-button';
 import { LanguageProvider } from '@/hooks/use-language';
 
 export default function RootLayout({
@@ -53,7 +54,10 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <LanguageProvider>{children}</LanguageProvider>
+            <LanguageProvider>
+              {children}
+              <ScrollToTopButton />
+            </LanguageProvider>
           </ThemeProvider>
         </body>
       </html>

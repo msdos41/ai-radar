@@ -27,6 +27,7 @@ export default function AIToolsComparison() {
     <div className="mx-auto max-w-7xl">
       <div className="mb-10 flex items-center justify-between">
         <h1 className="text-4xl font-extrabold">AI Radar</h1>
+        {/* <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mb-4 sm:mb-0">AI Radar</h1> */}
         {/* <h1 className="text-4xl font-extrabold">{SITE_TITLE}</h1> */}
         <div className="flex items-center space-x-2">
           <LanguageToggle />
